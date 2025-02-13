@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-bottom">
-            <p className="footer-bottom-left">@ 2024 Pallavi Walve. All rights reserved. </p>
+            <p className="footer-bottom-left">@ 2025 Saloni Thete. All rights reserved. </p>
         </div>
       
     </div>
