@@ -21,22 +21,13 @@ const Footer = () => {
                 <img src={github} alt="GitHub" />
               </a>
 
-              <a href="mailto:saloni662001@gmail.com@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:saloni662001@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={emailIcon} alt="Email" />
               </a>
 
               <a href="https://www.linkedin.com/in/salonithete/" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin} alt="LinkedIn"/>
               </a>
-
-              {/* <a href="https://instagram.com/pallavi_walve140" target="_blank" rel="noopener noreferrer">
-                <img src={instagram} alt="Instagram"/>
-              </a> */}
-
-                    {/* <img src={emailIcon} alt="" />
-                    <img src={linkedin} alt="" />
-                    <img src={github} alt="" />
-                    <img src={instagram} alt="" /> */}
             </div>
         </div>
         <div className="footer-bottom">
