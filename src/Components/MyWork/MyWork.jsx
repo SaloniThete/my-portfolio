@@ -9,50 +9,33 @@ import project_img_3 from '../../assets/project_3.png'
 import project_img_4 from '../../assets/project_4.png'
 
 const MyWork = () => {
-  return (
-    <div id='work' className='mywork'>
+    return (
+      <div id='work' className='mywork'>
         <div className="mywork-title">
-            <h1>My latest work</h1>
-            <img src={theme_pattern} alt="" />
+          <h1>My Latest Work</h1>
+          <img src={theme_pattern} alt="" />
         </div>
-
+  
         <div className="mywork-container">
-            <img src={project_img_1} alt=""/>  
-            <img src={project_img_2} alt=""/>  
+          <div className="mywork-card">
+            <img src={project_img_1} alt="Recipe App" />
+            <div className="mywork-info">
+              <h2>Recipe App</h2>
+              <a href="" target='_blank' rel='noopener noreferrer' className="mywork-demo">View Demo</a>
+            </div>
+          </div>
+  
+          <div className="mywork-card">
+            <img src={project_img_2} alt="Music Player" />
+            <div className="mywork-info">
+              <h2>Music Player</h2>
+              <a href="" target='_blank' rel='noopener noreferrer' className="mywork-demo">View Demo</a>
+            </div>
+          </div>
         </div>
+      </div>
+    );
+  }
+  
+  export default MyWork;
 
-        <div className="mywork-action">
-            <div className="mywork-demo">
-                <a href="" target='_blank' rel='noopener noreferrer'>Recipe App</a></div>
-            {/* <div className="mywork-source-code">
-            <a href="https://lnkd.in/gJ7NgN7u" target='_blank' rel='noopener noreferrer'>Source Code</a>
-            </div> */}
-        </div>
-
-        <div className="mywork-action-1">
-            <div className="mywork-demo">
-                <a href="" target='_blank' rel='noopener noreferrer'>Music Player</a></div>
-            {/* <div className="mywork-source-code">
-            <a href="https://github.com/PallaviWalve/Celsius-to-Fahrenheit-Converter.git" target='_blank' rel='noopener noreferrer'>Source Code</a>
-            </div> */}
-        </div>
-
-        {/* <div className="mywork-container">
-            <img src={project_img_3} alt=""/>  
-            <img src={project_img_4} alt=""/>  
-        </div> */}
-
-        {/* <div className="mywork-action">
-            <div className="mywork-demo">
-                <a href="https://whimsical-duckanoo-9b827c.netlify.app" target='_blank' rel='noopener noreferrer'>Demo</a></div>
-        </div>
-
-        <div className="mywork-action-1">
-            <div className="mywork-demo">
-                <a href="https://whimsical-meringue-1a9098.netlify.app/" target='_blank' rel='noopener noreferrer'>Demo</a></div>
-        </div> */}
-    </div>
-  )
-}
-
-export default MyWork

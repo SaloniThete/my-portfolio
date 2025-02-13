@@ -1,119 +1,99 @@
-.mywork{
+.mywork {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 60px;
+    margin: 60px 100px;
 }
-.mywork-title{
+.mywork-title {
     position: relative;
 }
-.mywork-title h1{
+.mywork-title h1 {
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
 }
-.mywork-title img{
+.mywork-title img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
-.mywork-container{
+.mywork-container {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
+    width: 100%;
+    justify-content: center;
 }
-.mywork-container img{
-    box-sizing: border-box;
-    width: 419px;
-    height: 280px;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.mywork-container img:hover{
-    transform: scale(1.10);
-    border: 4px solid #ff00ff;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-.mywork-action{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 20px;
-    font-weight: 450;
-    margin-right: 450px;
-    margin-top: -50px;
-    /* margin-bottom: 10px; */
-}
-.mywork-action-1{
-    display: flex;
-    /* flex-direction: row; */
-    align-items: center;
-    gap: 20px;
-    font-size: 20px;
-    font-weight: 450;
-    margin-left: 450px;
-    margin-top: -150px;
-    /* margin-bottom: 10px; */
-}
-.mywork-demo{
-    padding: 20px 40px;
-    border-radius: 40px;
-    border: solid white;
-    background-color: transparent;
-    cursor: pointer;
-}
-.mywork-source-code{
-    padding: 20px 40px;
-    border-radius: 40px;
-    border: solid white;
-    background-color: transparent;
-    cursor: pointer;
-}
-.mywork-demo a{
-    color: white;
-    display: block;
-    text-decoration: none;
-}
-.mywork-source-code a{
-    color: white;
-    display: block;
-    text-decoration: none;
-}
-.mywork-demo:hover{
-    border: none;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
 
+/* Card Styling */
+.mywork-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid white;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
-.mywork-source-code:hover{
+.mywork-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 0, 255, 0.4);
+    border-color: #ff00ff;
+}
+
+/* Image Styling */
+.mywork-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Card Info */
+.mywork-info {
+    margin-top: 20px;
+}
+.mywork-info h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+/* Button */
+.mywork-demo {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: solid white;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.mywork-demo:hover {
     border: none;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
 }
-@media(max-width:768px){
-    .mywork{
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mywork {
+        margin: 40px 50px;
     }
-    .mywork-title h1{
-        padding: 0;
-        font-size: 50px;
-        font-weight: 600;
+    .mywork-title h1 {
+        font-size: 40px;
     }
-    .mywork-title img{
-        width: 130px;
-        margin-right: -20px;
+    .mywork-container {
+        grid-template-columns: 1fr;
     }
-    .mywork-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
-    .mywork-container img{
-        width: 100%;
-        height: 100%;
-    }
-   
 }
