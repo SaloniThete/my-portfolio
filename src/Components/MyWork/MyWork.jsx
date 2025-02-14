@@ -25,7 +25,7 @@ const MyWork = () => {
             <img src={project_img_2} alt="Music Player" />
             <div className="mywork-info">
               <h2>Music Player</h2>
-              <a href="" target='_blank' rel='noopener noreferrer' className="mywork-demo">View Demo</a>
+              <a href="https://music-player-rho-kohl.vercel.app/" target='_blank' rel='noopener noreferrer' className="mywork-demo">View Demo</a>
             </div>
           </div>
         </div>
