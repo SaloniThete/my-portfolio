@@ -39,7 +39,7 @@ const MyWork = () => {
             <img src={weather} alt="Weather App" />
             <div className="mywork-info">
               <h2>Weather App</h2>
-              <a href="https://weather-65jj1hhu3-saloni-thetes-projects.vercel.app/" target='_blank' rel='noopener noreferrer' className="mywork-demo">View Demo</a>
+              <a href="https://weather-app-five-swart.vercel.app/" target='_blank' rel='noopener noreferrer' className="mywork-demo">View Demo</a>
             </div>
           </div>
           <div className="mywork-card">
