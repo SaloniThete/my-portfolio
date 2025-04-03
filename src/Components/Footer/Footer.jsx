@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footer-top-left">
                 {/* <img src={footer_logo} alt="" /> */}
                 <h1>Saloni</h1>
-                <p>I am a fullstack developer  with expertise in Java, HTML, CSS, React and React Native. I enjoy building efficient, user-friendly applications by leveraging both front-end and back-end technologies.</p>
+                <p>I am a fullstack developer  with expertise in HTML, CSS, Javascript, React, React Native, Node.js, Express.js. I enjoy building efficient, user-friendly applications by leveraging both front-end and back-end technologies.</p>
             </div>
             <div className="footer-top-right">
 
