@@ -33,7 +33,7 @@
     
 // ]
 
-export const Services_Data = [
+export const Experiences_Data = [
     {
       id: 0,
       img: "",
@@ -74,4 +74,4 @@ export const Services_Data = [
   ];
   
  
-export default Services_Data;
+export default Experiences_Data;

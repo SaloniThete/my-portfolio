@@ -1,10 +1,10 @@
 import React from 'react'
-import './Services.css'
+import './Experiences.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import Experience_Data from '../../assets/services_data'
+import Experience_Data from '../../assets/experiences_data'
 // import arrow_icon from '../../assets/arrow_icon.svg'
 
-const Services = () => {
+const Experiences = () => {
   return (
     <div id='experience' className='experience'>
         <div className="experience-title">
@@ -29,4 +29,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Experiences;
