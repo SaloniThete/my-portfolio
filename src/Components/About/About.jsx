@@ -23,9 +23,10 @@ const About = () => {
                 <p>In addition to my technical skills, I have a creative side, with a love for music and travel, which fuels my attention to detail and problem-solving abilities. I thrive in dynamic environments and am constantly seeking to leverage new technologies to build seamless, user-centric experiences.</p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}}/></div>
                 <div className="about-skill"><p>React JS</p><hr style={{width:"80%"}}/></div>
                 <div className="about-skill"><p>JavaScript</p><hr style={{width:"70%"}}/></div>
+                <div className="about-skill"><p>Angular</p><hr style={{width:"70%"}}/></div>
+                <div className="about-skill"><p>Salesforce</p><hr style={{width:"70%"}}/></div>
                 <div className="about-skill"><p>Node js</p><hr style={{width:"60%"}}/></div>
                 <div className="about-skill"><p>Java</p><hr style={{width:"50%"}}/></div>
                 <div className="about-skill"><p>React Native</p><hr style={{width:"60%"}}/></div>
